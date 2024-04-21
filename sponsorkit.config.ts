@@ -12,6 +12,11 @@ const past: BadgePreset = {
 };
 
 export default defineConfig({
+	github: {
+		login: "tglide",
+		type: "user",
+	},
+
 	tiers: [
 		{
 			title: "Past Sponsors",
@@ -38,16 +43,16 @@ export default defineConfig({
 		},
 		{
 			title: "Silver Sponsors",
-			monthlyDollars: 50,
+			monthlyDollars: 60,
 			preset: presets.medium,
 		},
 		{
 			title: "Gold Sponsors",
-			monthlyDollars: 100,
+			monthlyDollars: 120,
 			preset: presets.large,
 		},
 		{
-			title: "Platinum Sponsors",
+			title: "Diamond Sponsors",
 			monthlyDollars: 500,
 			preset: presets.xl,
 		},
